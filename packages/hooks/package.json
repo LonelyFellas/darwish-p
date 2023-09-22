@@ -1,0 +1,31 @@
+{
+  "name": "@darwish-hooks/core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.min.js",
+  "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "publish": "pnpm publish --no-git-checks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.min.js",
+    "index.d.ts",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "main": "index.min.js",
+    "module": "index.min.js",
+    "types": "index.d.ts"
+  },
+  "author": "darwish",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

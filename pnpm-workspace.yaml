@@ -1,0 +1,7 @@
+packages:
+  - 'packages/*'
+  - 'docs'
+  - 'packages/ui/**'
+  - 'packages/hooks/**'
+  - 'hooks/**'
+  - 'utils/**'

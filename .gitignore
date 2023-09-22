@@ -1,0 +1,7 @@
+node_modules
+.pnpm-debug.log
+*.tgz
+
+# dist
+lib
+dist
