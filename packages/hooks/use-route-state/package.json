@@ -1,0 +1,30 @@
+{
+  "name": "@darwish-hooks/use-router-state",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "prebuild": "cross-env OUT_DIR=./lib node change-tsconfig.js && wait-on tsconfig.json",
+    "prebuild:out": "cross-env OUT_DIR=../lib node change-tsconfig.js && wait-on tsconfig.json",
+    "build": "rollup --config",
+    "prebuild-and-build": "pnpm run prebuild && pnpm run build",
+    "prebuild-and-build:out": "pnpm run prebuild:out && pnpm run build",
+    "publish": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "main": "lib/index.js",
+    "module": "lib/index.js",
+    "types": "lib/index.d.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}

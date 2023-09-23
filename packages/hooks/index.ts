@@ -1,12 +1,16 @@
-import useBoolean from "./use-boolean/lib/index";
-
+import useBoolean from "./use-boolean/src/index";
+import { useRouteState, useRouteStates} from "./use-route-state/src/index";
 
 const DarwishHooks = {
-  useBoolean
+  useBoolean,
+  useRouteState,
+  useRouteStates
 }
 
 export {
-  useBoolean
+  useBoolean,
+  useRouteState,
+  useRouteStates
 }
 
 

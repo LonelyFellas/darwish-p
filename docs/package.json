@@ -12,6 +12,7 @@
   "dependencies": {
     "@darwish-ui/button": "workspace:*",
     "@darwish-hooks/use-boolean": "workspace:*",
+    "@darwish-hooks/use-router-state": "workspace:*",
     "@darwish-hooks/core": "workspace:*",
     "fly-comp-react": "^0.0.4",
     "react": "^18.2.0",
