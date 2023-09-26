@@ -14,6 +14,7 @@
     "@darwish-hooks/use-boolean": "workspace:*",
     "@darwish-hooks/use-router-state": "workspace:*",
     "@darwish-hooks/core": "workspace:*",
+    "@darwish-utils/clone-deep": "workspace:*",
     "fly-comp-react": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

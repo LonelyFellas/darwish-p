@@ -3,5 +3,6 @@ packages:
   - 'docs'
   - 'packages/ui/**'
   - 'packages/hooks/**'
+  - 'packages/utils/**'
   - 'hooks/**'
   - 'utils/**'

@@ -4,8 +4,8 @@ let NumberParam: number | null | undefined = Infinity;
 let StringParam: string | null | undefined = '';
 let BooleanParam: boolean | null | undefined = undefined;
 let ArrayParam: number[] | string[] | null | undefined = [];
-let ObjectParam: Record<PropertyKey, any> | null | undefined =
-  undefined;
+// let ObjectParam: Record<PropertyKey, any> | null | undefined =
+//   undefined;
 export function useRouteStates<T extends Record<any, any>>(obj: T) {
   const [state, setState] = useState<T>(obj);
 

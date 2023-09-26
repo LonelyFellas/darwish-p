@@ -2,8 +2,10 @@
   "name": "@darwish-hooks/use-router-state",
   "version": "0.0.1",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "./lib/index.cjs.js",
+  "module": "./lib/index.esm.js",
   "types": "./lib/index.d.ts",
+  "typings": "./lib/index.d.ts",
   "type": "module",
   "scripts": {
     "prebuild": "cross-env OUT_DIR=./lib node change-tsconfig.js && wait-on tsconfig.json",

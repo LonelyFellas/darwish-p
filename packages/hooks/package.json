@@ -7,7 +7,8 @@
   "typings": "./lib/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "rollup --config",
+    "build-all": "pnpm -r run 'prebuild-and-build:out'",
+    "build": "pnpm run build-all && rollup --config",
     "publish": "pnpm publish --no-git-checks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
